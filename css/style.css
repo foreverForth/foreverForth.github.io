@@ -31,3 +31,8 @@
 #page-header.post-bg:before {
 	background-color: transparent !important;
 }
+
+/* 导航栏间距调整 */
+#nav .menus_items .menus_item {
+	padding: 0 0 0 30px;
+}
