@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>uniapp打包apk</title>
+      <link href="/2022/09/08/uniapp%E6%89%93%E5%8C%85apk/"/>
+      <url>/2022/09/08/uniapp%E6%89%93%E5%8C%85apk/</url>
+      
+        <content type="html"><![CDATA[<h2 id="打包发行"><a href="#打包发行" class="headerlink" title="打包发行"></a>打包发行</h2><blockquote><p>在 HBuilderX 工具栏，点击发行，选择原生 app-云端打包，如下图</p></blockquote><p><img src="https://shaohua-1313651385.cos.ap-guangzhou.myqcloud.com/img/image-20220908165225469.webp" alt="image-20220908165225469"></p><p><img src="https://shaohua-1313651385.cos.ap-guangzhou.myqcloud.com/img/image-20220908170902154.webp" alt="image-20220908170902154"></p><p>选择公共证书 -&gt; 快速安心打包 简单一些</p><blockquote><p>也可以选择自有证书, 不过这样麻烦一些, 需要自己去获取证书</p></blockquote><p><a href="https://ask.dcloud.net.cn/article/35777">获取证书参考教程</a></p><blockquote><p>根据获取到的证书 填写信息</p></blockquote><p><img src="https://shaohua-1313651385.cos.ap-guangzhou.myqcloud.com/img/image-20220908165940013.webp" alt="image-20220908165940013"></p><p>证书别名: 获取证书过程中会提到</p><p>密码: 自己设置的密码</p><blockquote><p>值得一提的是 cmd 命令框设置密码时候是不显示的，而且光标也不动，但实际上是输入进去了，输完直接回车即可</p></blockquote><p>证书文件: 用 Everything 搜索 test.keyStore 文件 直接复制它的路径 或者复制一份到自己容易找到的路径</p><blockquote><p>最后选择快速安心打包 等待打包完成即可</p></blockquote><p>最后的 apk 文件是在 项目路径&#x2F;unpackage&#x2F;release&#x2F;apk&#x2F;xxx.apk 手机直接安装查看即可</p><h2 id="配置-app-信息"><a href="#配置-app-信息" class="headerlink" title="配置 app 信息"></a>配置 app 信息</h2><blockquote><p>打开项目下的 manifest.json 配置文件(可视化界面)</p></blockquote><ol><li>基础配置</li><li>图标配置</li><li>启动页面</li><li>功能<ol><li>定位</li><li>通知</li></ol></li></ol><p><a href="https://zh.uniapp.dcloud.io/tutorial/">manifest.json 配置文件参考教程</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>开学</title>
       <link href="/2022/09/07/%E5%BC%80%E5%AD%A6/"/>
       <url>/2022/09/07/%E5%BC%80%E5%AD%A6/</url>
