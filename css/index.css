@@ -6290,7 +6290,7 @@ canvas:not(#ribbon-canvas),
 /* 字体改变 */
 @font-face {
 	font-family: "shaohua"; /* 字体名自定义即可 */
-	src: url("/fonts/shaohua.ttf"); /* 字体文件路径 */
+	src: url("/fonts/ever.ttf"); /* 字体文件路径 */
 	font-display: swap;
 }
 
