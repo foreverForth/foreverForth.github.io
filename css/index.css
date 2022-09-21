@@ -6267,16 +6267,16 @@ blockquote.pullquote.right {
 }
 
 /* 背景图变暗一点 */
-#web_bg {
+/* #web_bg {
 	filter: brightness(0.7);
-}
+} */
 
 /* 关掉背景图动画 */
-canvas:not(#ribbon-canvas),
+/* canvas:not(#ribbon-canvas),
 #web_bg {
 	-webkit-animation: unset;
 	animation: unset;
-}
+} */
 
 /* 首页名字以及句子 字体调小一点 */
 #page-header #site-title {
