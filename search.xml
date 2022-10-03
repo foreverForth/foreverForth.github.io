@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>linux终端 ifconfig不显示子网ip</title>
+      <link href="/2022/10/03/linux%20ifconfig%20%E4%B8%8D%E6%98%BE%E7%A4%BAip%E5%9C%B0%E5%9D%80/"/>
+      <url>/2022/10/03/linux%20ifconfig%20%E4%B8%8D%E6%98%BE%E7%A4%BAip%E5%9C%B0%E5%9D%80/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/u012255097/article/details/83834702">参考文章</a></p><h4 id="打开-ifcfg-ens33-配置文件"><a href="#打开-ifcfg-ens33-配置文件" class="headerlink" title="打开 ifcfg-ens33 配置文件"></a>打开 ifcfg-ens33 配置文件</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/sysconfig/network<span class="literal">-scripts</span>/ifcfg<span class="literal">-ens33</span></span><br></pre></td></tr></table></figure><h4 id="修改-ONBOOT-x3D-yes"><a href="#修改-ONBOOT-x3D-yes" class="headerlink" title="修改 ONBOOT&#x3D;yes"></a>修改 ONBOOT&#x3D;yes</h4><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">TYPE</span>=<span class="string">Ethernet</span></span><br><span class="line"><span class="attr">PROXY_METHOD</span>=<span class="string">none</span></span><br><span class="line"><span class="attr">BROWSER_ONLY</span>=<span class="string">no</span></span><br><span class="line"><span class="attr">BOOTPROTO</span>=<span class="string">dhcp</span></span><br><span class="line"><span class="attr">DEFROUTE</span>=<span class="string">yes</span></span><br><span class="line"><span class="attr">IPV4_FAILURE_FATAL</span>=<span class="string">no</span></span><br><span class="line"><span class="attr">IPV6INIT</span>=<span class="string">yes</span></span><br><span class="line"><span class="attr">IPV6_AUTOCONF</span>=<span class="string">yes</span></span><br><span class="line"><span class="attr">IPV6_DEFROUTE</span>=<span class="string">yes</span></span><br><span class="line"><span class="attr">IPV6_FAILURE_FATAL</span>=<span class="string">no</span></span><br><span class="line"><span class="attr">IPV6_ADDR_GEN_MODE</span>=<span class="string">stable-privacy</span></span><br><span class="line"><span class="attr">NAME</span>=<span class="string">ens33</span></span><br><span class="line"><span class="attr">UUID</span>=<span class="string">3f7f48da-0954-4757-9e63-171f8cab8177</span></span><br><span class="line"><span class="attr">DEVICE</span>=<span class="string">ens33</span></span><br><span class="line"><span class="attr">ONBOOT</span>=<span class="string">yes</span></span><br></pre></td></tr></table></figure><h4 id="重启网络服务"><a href="#重启网络服务" class="headerlink" title="重启网络服务"></a>重启网络服务</h4><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service network restart</span><br></pre></td></tr></table></figure><blockquote><p>sudo 表示以最高权限执行命令</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 遇到的问题 </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>胡思乱想</title>
       <link href="/2022/09/29/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
       <url>/2022/09/29/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</url>
@@ -99,9 +120,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Java </tag>
-            
             <tag> Spring </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -132,9 +153,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Java </tag>
-            
             <tag> Spring </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -165,9 +186,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Java </tag>
-            
             <tag> Spring </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -198,9 +219,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Java </tag>
-            
             <tag> Spring </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -250,11 +271,11 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Java </tag>
-            
             <tag> Spring </tag>
             
             <tag> Spring-ioc </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
