@@ -6225,7 +6225,7 @@ blockquote.pullquote.right {
 
 /* 目录菜单间距 */
 #nav #menus {
-	flex: 2;
+	flex: 3;
 }
 
 .search-dialog {
