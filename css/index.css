@@ -1403,7 +1403,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://shaohua-1313651385.cos.ap-guangzhou.myqcloud.com/img/98237023_p0.webp);
+  background: url(https://shaohua-1313651385.cos.ap-guangzhou.myqcloud.com/img/96354634_p0.webp);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -6171,65 +6171,6 @@ blockquote.pullquote.right {
 .read-mode #article-container .note .note-icon {
   color: var(--font-color);
 }
-/*！背景图渐变效果*/
-#body-wrap {
-	background: -webkit-linear-gradient(
-		0deg,
-		rgba(247, 149, 51, 0.1) 0,
-		rgba(243, 112, 85, 0.1) 15%,
-		rgba(239, 78, 123, 0.1) 30%,
-		rgba(161, 102, 171, 0.1) 44%,
-		rgba(80, 115, 184, 0.1) 58%,
-		rgba(16, 152, 173, 0.1) 72%,
-		rgba(7, 179, 155, 0.1) 86%,
-		rgba(109, 186, 130, 0.1) 100%
-	);
-	background: -moz-linear-gradient(
-		0deg,
-		rgba(247, 149, 51, 0.1) 0,
-		rgba(243, 112, 85, 0.1) 15%,
-		rgba(239, 78, 123, 0.1) 30%,
-		rgba(161, 102, 171, 0.1) 44%,
-		rgba(80, 115, 184, 0.1) 58%,
-		rgba(16, 152, 173, 0.1) 72%,
-		rgba(7, 179, 155, 0.1) 86%,
-		rgba(109, 186, 130, 0.1) 100%
-	);
-	background: -o-linear-gradient(
-		0deg,
-		rgba(247, 149, 51, 0.1) 0,
-		rgba(243, 112, 85, 0.1) 15%,
-		rgba(239, 78, 123, 0.1) 30%,
-		rgba(161, 102, 171, 0.1) 44%,
-		rgba(80, 115, 184, 0.1) 58%,
-		rgba(16, 152, 173, 0.1) 72%,
-		rgba(7, 179, 155, 0.1) 86%,
-		rgba(109, 186, 130, 0.1) 100%
-	);
-	background: -ms-linear-gradient(
-		0deg,
-		rgba(247, 149, 51, 0.1) 0,
-		rgba(243, 112, 85, 0.1) 15%,
-		rgba(239, 78, 123, 0.1) 30%,
-		rgba(161, 102, 171, 0.1) 44%,
-		rgba(80, 115, 184, 0.1) 58%,
-		rgba(16, 152, 173, 0.1) 72%,
-		rgba(7, 179, 155, 0.1) 86%,
-		rgba(109, 186, 130, 0.1) 100%
-	);
-	background: linear-gradient(
-		90deg,
-		rgba(247, 149, 51, 0.1) 0,
-		rgba(243, 112, 85, 0.1) 15%,
-		rgba(239, 78, 123, 0.1) 30%,
-		rgba(161, 102, 171, 0.1) 44%,
-		rgba(80, 115, 184, 0.1) 58%,
-		rgba(16, 152, 173, 0.1) 72%,
-		rgba(7, 179, 155, 0.1) 86%,
-		rgba(109, 186, 130, 0.1) 100%
-	);
-}
-
 /* 页脚透明 */
 #footer {
 	background: transparent !important;
@@ -6266,32 +6207,25 @@ blockquote.pullquote.right {
 	padding: 0 0 0 30px;
 }
 
-/* 背景图变暗一点 */
-/* #web_bg {
-	filter: brightness(0.7);
-} */
-
-/* 关掉背景图动画 */
-/* canvas:not(#ribbon-canvas),
-#web_bg {
-	-webkit-animation: unset;
-	animation: unset;
-} */
-
 /* 首页名字以及句子 字体调小一点 */
-#page-header #site-title {
+/* #page-header #site-title {
 	font-size: 2.3em;
 }
 
 #page-header #site-subtitle {
 	font-size: 1.4em;
-}
+} */
 
 /* 字体改变 */
 @font-face {
 	font-family: "shaohua"; /* 字体名自定义即可 */
 	src: url("/fonts/Hannotate.ttf"); /* 字体文件路径 */
 	font-display: swap;
+}
+
+/* 目录菜单间距 */
+#nav #menus {
+	flex: 2;
 }
 
 .search-dialog {
