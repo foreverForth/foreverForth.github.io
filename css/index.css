@@ -6228,6 +6228,14 @@ blockquote.pullquote.right {
 	flex: 3;
 }
 
+.layout {
+	padding: unset;
+}
+
+#aside-content {
+	width: 20%;
+}
+
 .search-dialog {
   position: fixed;
   top: 10%;
