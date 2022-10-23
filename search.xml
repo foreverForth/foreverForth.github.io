@@ -51,7 +51,7 @@
       
       <categories>
           
-          <category> 数据结构与算法 </category>
+          <category> 算法 </category>
           
       </categories>
       
@@ -108,7 +108,7 @@
       
       <categories>
           
-          <category> 数据结构与算法 </category>
+          <category> 算法 </category>
           
       </categories>
       
@@ -341,9 +341,9 @@
       
         <tags>
             
-            <tag> Linux </tag>
-            
             <tag> 遇到的问题 </tag>
+            
+            <tag> Linux </tag>
             
         </tags>
       
